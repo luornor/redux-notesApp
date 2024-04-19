@@ -41,7 +41,7 @@ function App() {
 
   return (
     <>
-    <main className="w-1/2 m-auto border border-white p-6 rounded-lg shadow-md">
+    <main className="w-1/2 m-auto border border-white p-6 rounded-lg shadow-lg">
       <h1 className='text-center text-4xl font-bold mb-4'>Notes App</h1>
 
       <form onSubmit={handleAddNote} className="space-y-4">
